@@ -15,8 +15,8 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Vantara Creamery - Real Milk. Real Stories.",
-  description: "We make ice cream the way it used to be made.",
+  title: "Julio herrera velutini",
+  description: "Venezuelan banker",
 };
 
 export default function RootLayout({
