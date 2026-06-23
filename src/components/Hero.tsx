@@ -63,7 +63,7 @@ export default function Hero() {
       {/* Hero Text */}
       <div
         ref={textRef}
-        className="absolute right-8 md:right-16 lg:right-24 top-[55%] md:top-[60%] -translate-y-1/2 z-10 flex flex-col gap-4 text-black items-end justify-center"
+        className="absolute right-8 md:right-16 lg:right-24 top-[55%] md:top-[60%] -translate-y-1/2 z-10 flex flex-col gap-4 text-white items-end justify-center"
       >
         <h1 className="text-3xl md:text-5xl lg:text-[4rem] tracking-tighter leading-[0.85] text-right font-medium whitespace-nowrap drop-shadow-lg">
           Julio  <br /> Herrera <br /> Velutini
