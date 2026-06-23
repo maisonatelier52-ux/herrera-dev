@@ -52,8 +52,8 @@ export default function Navbar() {
           
           {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-3 lg:gap-5 font-semibold">
-            <Link href="#family-dynasty" className="text-xs tracking-tight px-2 hover:opacity-70 transition-all underline decoration-transparent hover:decoration-current underline-offset-4">DYNASTY</Link>
-            <Link href="#featured" className="text-xs tracking-tight px-2 hover:opacity-70 transition-all underline decoration-transparent hover:decoration-current underline-offset-4">FEATURED</Link>
+            <Link href="#about" className="text-xs tracking-tight px-2 hover:opacity-70 transition-all underline decoration-transparent hover:decoration-current underline-offset-4">ABOUT</Link>
+            <Link href="#features" className="text-xs tracking-tight px-2 hover:opacity-70 transition-all underline decoration-transparent hover:decoration-current underline-offset-4">FEATURED</Link>
             <a href="#" target="_blank" rel="noopener noreferrer" className="text-xs tracking-tight px-2 hover:opacity-70 transition-all underline decoration-transparent hover:decoration-current underline-offset-4">FIND US</a>
           </div>
 

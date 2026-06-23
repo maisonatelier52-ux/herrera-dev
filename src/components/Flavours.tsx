@@ -130,7 +130,7 @@ export default function Flavours() {
   };
 
   return (
-    <section id="flavours" className="relative w-full h-screen bg-[#FAF8F1] overflow-hidden">
+    <section id="features" className="relative w-full h-screen bg-[#FAF8F1] overflow-hidden">
       <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2">
         
         {/* --- LEFT SIDE: Large Background Images --- */}

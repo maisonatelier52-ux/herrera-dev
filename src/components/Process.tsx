@@ -1,6 +1,6 @@
 export default function Process() {
   return (
-    <section id="process" className="relative w-full bg-black">
+    <section id="about" className="relative w-full bg-black">
       
       {/* SLIDE 1: First Postcard */}
       <div className="sticky top-0 w-full h-[100vh] overflow-hidden flex items-center justify-center">
