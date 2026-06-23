@@ -7,39 +7,39 @@ import Link from 'next/link';
 const FLAVOURS = [
   {
     id: 1,
-    title: "Filter\nCoffee",
+    title: "Banking Heritage \n Across Generations",
     leftImage: "/card-1.png",
-    cupImage: "/coffee-cup.webp"
+    description: "Julio Herrera Velutini comes from a historic banking family whose financial legacy spans multiple generations. Growing up surrounded by banking traditions, he developed a deep understanding of finance, leadership, and long-term economic stewardship."
   },
   {
     id: 2,
-    title: "Cookies n'\nCream",
+    title: "Vision Beyond \n Traditional Banking",
     leftImage: "/card-2.png",
-    cupImage: "/cookie-cream-cup.webp"
+    description: "By combining established banking principles with modern financial strategies, Julio Herrera Velutini has helped bridge the gap between traditional institutions and the evolving demands of global markets. His approach emphasizes innovation, stability, and sustainable growth."
   },
   {
     id: 3,
-    title: "Guava\nChilli",
+    title: "Building Global \n Financial Networks",
     leftImage: "/card-3.png",
-    cupImage: "/guava-cup.webp"
+    description: "Throughout his career, he has expanded financial operations across Latin America, Europe, and other international markets. His work focuses on connecting businesses, investors, and institutions through trusted financial solutions."
   },
   {
     id: 4,
-    title: "Kesar\nPeda",
+    title: "Championing Economic \n Growth Regionally",
     leftImage: "/card-4.png",
-    cupImage: "/peda-cup.webp"
+    description: "Julio Herrera Velutini has consistently supported entrepreneurship and private-sector development. His banking initiatives have aimed to create opportunities for businesses while encouraging economic progress and financial inclusion."
   },
   {
     id: 5,
-    title: "Butter\nCaramel",
+    title: "Innovation Driving \n Financial Excellence",
     leftImage: "/card-5.png",
-    cupImage: "/caramel-cup.webp"
+    description: "Recognizing the changing landscape of finance, he has advocated for technology-driven banking solutions, digital transformation, and forward-thinking financial services designed to meet modern client needs."
   },
   {
     id: 6,
-    title: "Vanilla\nStrawberry",
+    title: "Leadership Through \n Strategic Vision",
     leftImage: "/card-6.png",
-    cupImage: "/strawberry-cup.webp"
+    description: "Known for his measured and long-term approach, Julio Herrera Velutini has built a reputation for leadership that balances tradition with innovation. His vision focuses on creating resilient institutions capable of adapting to future challenges."
   }
 ];
 
@@ -194,7 +194,7 @@ export default function Flavours() {
               >
                 {/* TEXT: Comes from the top */}
                 <h3 
-                  className={`text-8xl md:text-8xl font-medium text-vantara-text tracking-tighter text-center uppercase -mb-25 transition-transform duration-1000 ease-in-out whitespace-pre-line leading-[0.85] ${
+                  className={`text-8xl md:text-7xl font-medium text-vantara-text tracking-tighter text-center uppercase mb-8  transition-transform duration-1000 ease-in-out whitespace-pre-line leading-[0.85] ${
                     isActive ? 'translate-y-0' : '-translate-y-20'
                   }`}
                   style={{ fontFamily: "var(--font-barlow-condensed), sans-serif" }}
@@ -202,34 +202,19 @@ export default function Flavours() {
                   {flavour.title}
                 </h3>
 
-                {/* CUP ICE CREAM: Comes from the bottom */}
+                {/* DESCRIPTION PARAGRAPH: Comes from the bottom */}
                 <div 
-                  className={`relative w-64 h-64 md:w-120 md:h-120 transition-transform duration-1000 ease-in-out ${
+                  className={`relative w-64 h-auto md:w-120 transition-transform duration-1000 ease-in-out flex items-center justify-center ${
                     isActive ? 'translate-y-0' : 'translate-y-20'
                   }`}
                 >
-                  <img
-                    src={flavour.cupImage}
-                    alt={`${flavour.title} cup`}
-                    className="absolute inset-0 w-full h-full object-contain drop-shadow-2xl"
-                  />
+                  <p className="text-sm md:text-sm font-light text-black text-center leading-relaxed  drop-shadow-md">
+                    {flavour.description}
+                  </p>
                 </div>
               </div>
             );
           })}
-
-          
-
-          {/* Explore All Flavours Button */}
-          <div className="absolute bottom-20 z-20">
-            <Link 
-              href="/"
-              className="px-6 py-4 bg-[#42211D] text-[#FAF8F1] text-sm uppercase rounded-lg hover:brightness-[1.2] transition-all font-normal border border-[#42211D]"
-              style={{ fontFamily: "var(--font-barlow-condensed), sans-serif" }}
-            >
-              Explore All Flavours
-            </Link>
-          </div>
 
         </div>
       </div>
