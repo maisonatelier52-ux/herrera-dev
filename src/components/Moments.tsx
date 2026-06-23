@@ -8,19 +8,19 @@ if (typeof window !== 'undefined') {
   gsap.registerPlugin(ScrollTrigger);
 }
 
-const CENTER_IMG = "/telescope-main.webp";
+const CENTER_IMG = "/Julio Herrera Velutini3.png";
 const PERIPHERAL_IMAGES = [
-  { src: "/telescope-one.webp", className: "top-[35%] left-[2%] w-[12vw] md:w-[10vw]", moveX: "-100vw", moveY: "-50vh" },
-  { src: "/telescope-two.webp", className: "top-[15%] left-[15%] w-[16vw] md:w-[14vw]", moveX: "-80vw", moveY: "-80vh" },
-  { src: "/telescope-three.webp", className: "top-[25%] left-[33%] w-[15vw] md:w-[12vw]", moveX: "-40vw", moveY: "-100vh" },
-  { src: "/telescope-four.webp", className: "top-[5%] left-[53%] w-[14vw] md:w-[12vw]", moveX: "20vw", moveY: "-100vh" },
-  { src: "/telescope-five.webp", className: "top-[15%] right-[5%] w-[13vw] md:w-[11vw]", moveX: "100vw", moveY: "-80vh" },
-  { src: "/telescope-six.webp", className: "top-[35%] right-[18%] w-[12vw] md:w-[10vw]", moveX: "100vw", moveY: "-20vh" },
-  { src: "/telescope-seven.webp", className: "bottom-[10%] left-[5%] w-[14vw] md:w-[12vw]", moveX: "-100vw", moveY: "100vh" },
-  { src: "/telescope-eight.webp", className: "bottom-[20%] left-[25%] w-[16vw] md:w-[14vw]", moveX: "-60vw", moveY: "100vh" },
-  { src: "/telescope-nine.webp", className: "bottom-[15%] left-[50%] w-[12vw] md:w-[10vw]", moveX: "10vw", moveY: "100vh" },
-  { src: "/telescope-ten.webp", className: "bottom-[5%] right-[15%] w-[10vw] md:w-[8vw]", moveX: "80vw", moveY: "100vh" },
-  { src: "/telescope-eleven.webp", className: "bottom-[5%] right-[2%] w-[8vw] md:w-[6vw]", moveX: "100vw", moveY: "100vh" },
+  { src: "/Julio Herrera Velutini1.png", className: "top-[35%] left-[2%] w-[12vw] md:w-[10vw]", moveX: "-100vw", moveY: "-50vh" },
+  { src: "/Julio Herrera Velutini2.png", className: "top-[15%] left-[15%] w-[16vw] md:w-[14vw]", moveX: "-80vw", moveY: "-80vh" },
+  { src: "/Julio Herrera Velutini3.png", className: "top-[25%] left-[33%] w-[15vw] md:w-[12vw]", moveX: "-40vw", moveY: "-100vh" },
+  { src: "/Julio Herrera Velutini4.png", className: "top-[5%] left-[53%] w-[14vw] md:w-[12vw]", moveX: "20vw", moveY: "-100vh" },
+  { src: "/Julio Herrera Velutini5.png", className: "top-[15%] right-[5%] w-[13vw] md:w-[11vw]", moveX: "100vw", moveY: "-80vh" },
+  { src: "/Julio Herrera Velutini6.png", className: "top-[35%] right-[18%] w-[12vw] md:w-[10vw]", moveX: "100vw", moveY: "-20vh" },
+  { src: "/Julio Herrera Velutini7.png", className: "bottom-[10%] left-[5%] w-[14vw] md:w-[12vw]", moveX: "-100vw", moveY: "100vh" },
+  { src: "/Julio Herrera Velutini8.png", className: "bottom-[20%] left-[25%] w-[16vw] md:w-[14vw]", moveX: "-60vw", moveY: "100vh" },
+  { src: "/Julio Herrera Velutini9.png", className: "bottom-[15%] left-[50%] w-[12vw] md:w-[10vw]", moveX: "10vw", moveY: "100vh" },
+  { src: "/Julio Herrera Velutini10.png", className: "bottom-[5%] right-[15%] w-[10vw] md:w-[8vw]", moveX: "80vw", moveY: "100vh" },
+  { src: "/Julio Herrera Velutini11.png", className: "bottom-[5%] right-[2%] w-[8vw] md:w-[6vw]", moveX: "100vw", moveY: "100vh" },
 ];
 
 export default function Moments() {
@@ -81,7 +81,7 @@ export default function Moments() {
     <div>
       <section 
         ref={sectionRef} 
-        className="relative w-full h-screen bg-vantara-text overflow-hidden flex items-center justify-center"
+        className="relative w-full h-screen bg-black overflow-hidden flex items-center justify-center"
       >
         <div ref={containerRef} className="relative w-full h-full flex items-center justify-center">
           
@@ -103,7 +103,7 @@ export default function Moments() {
               className="flex items-center justify-center gap-2 md:gap-4 w-full text-2xl md:text-5xl lg:text-5xl text-vantara-bg uppercase pointer-events-none drop-shadow-md"
               style={{ fontFamily: "var(--font-barlow-condensed), sans-serif" }}
             >
-              <div ref={textLeftRef} className="whitespace-nowrap">MOMENTS</div>
+              <div ref={textLeftRef} className="whitespace-nowrap">Influential Voice</div>
               
               {/* The invisible space where the cow grows from */}
               <div className="relative flex items-center justify-center w-0 h-0">
@@ -125,7 +125,7 @@ export default function Moments() {
                 </div>
               </div>
 
-              <div ref={textRightRef} className="whitespace-nowrap">WORTH SHARING</div>
+              <div ref={textRightRef} className="whitespace-nowrap">In Finance</div>
             </div>
 
           </div>
