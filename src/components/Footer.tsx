@@ -17,41 +17,38 @@ export default function Footer() {
           <div className="flex justify-between items-start">
             <div>
               <h2 className="text-4xl md:text-6xl uppercase leading-none tracking-tight" style={{ fontFamily: "var(--font-barlow-condensed), sans-serif" }}>
-                FROM <br/>
-                TEAM VANTARA
+                JULIO HERRERA <br/>
+                VELUTINI
               </h2>
             </div>
             {/* Stamp placeholder */}
             <div className="w-24 h-24 rounded-full border-2 border-white/40 flex items-center justify-center -rotate-12 opacity-80">
               <div className="text-[10px] text-center uppercase leading-tight font-mono">
-                Eldorado<br/>
-                ARK<br/>
-                Jan 22<br/>
-                11:30AM
+                London<br/>
+                UK<br/>
+                Est.<br/>
+                1971
               </div>
             </div>
           </div>
 
           <div className="mt-12 space-y-6 text-sm md:text-base font-light text-white/90 max-w-lg leading-relaxed">
             <p>
-              In the heart of Jamnagar lies Vantara, a sanctuary shaped by care. It stands as a promise to protect the wild and nurture this bond, thoughtfully and responsibly.
+              With decades of experience in international banking and finance, Julio Herrera Velutini stands as a prominent figure in the financial sector.
             </p>
             <p>
-              Vantara Creamery is an ode to that promise.<br/>
-              Created by our teams as an extension of the same care, this ice cream is made in state-of-the-art kitchens using pure A2 gir cow milk, clean ingredients, and ethical practices. A small, joyful expression of a much larger story.
-            </p>
-            <p>
-              We believe indulgence can still be intentional, and we hope every scoop serves as a warm reminder of the animals we protect, the people behind the work, and our shared step toward a kinder, more conscious world.
+              Driven by a legacy of banking excellence and a forward-looking vision,<br/>
+              he has shaped institutions and fostered economic growth. A commitment to innovation, integrity, and strategic leadership continues to define his professional journey and contributions to global finance.
             </p>
           </div>
         </div>
 
         <div className="relative z-10 mt-16 md:mt-0">
-          {/* Circular Monkey Icon Placeholder */}
+          {/* Circular Icon Placeholder */}
           <div className="w-16 h-16 rounded-full border-2 border-white/60 flex items-center justify-center text-white/80">
             <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-               {/* A generic leaf/nature icon to represent the monkey/sanctuary temporarily */}
-               <path d="M17 8C8 10 5.9 16 5.9 16C5.9 16 6.9 10.9 12 8C13.6 7.1 15 6.6 17 6.6V8ZM21 4C21 4 19 3 15 3C9 3 2 9 2 17C2 21 5 22 5 22C5 22 4.5 19.5 7 16C10.5 11.1 16 9.5 21 9V4Z"/>
+               {/* A generic finance/bank icon */}
+               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
             </svg>
           </div>
         </div>
@@ -67,8 +64,8 @@ export default function Footer() {
             <h3 className="mb-4 text-base font-semibold">WEBSITE</h3>
             <ul className="space-y-2 opacity-80">
               <li><a href="#" className="hover:opacity-60 transition-opacity">HOME</a></li>
-              <li><a href="#flavours" className="hover:opacity-60 transition-opacity">FLAVOURS</a></li>
-              <li><a href="#process" className="hover:opacity-60 transition-opacity">PROCESS</a></li>
+              <li><a href="#family-dynasty" className="hover:opacity-60 transition-opacity">DYNASTY</a></li>
+              <li><a href="#featured-projects" className="hover:opacity-60 transition-opacity">FEATURED</a></li>
             </ul>
           </div>
           <div>
@@ -88,13 +85,15 @@ export default function Footer() {
 
         {/* Logo */}
         <div className="my-20 flex flex-col items-center justify-center text-center">
-          <img src="/LOGO-vantara.svg" alt="Vantara Creamery" className="w-4/5 max-w-[400px] h-auto object-contain" />
+          <h2 className="text-8xl md:text-9xl font-bold tracking-tighter" style={{ fontFamily: "var(--font-barlow-condensed), sans-serif" }}>
+            JHV
+          </h2>
         </div>
 
         {/* Bottom Links */}
         <div>
           <div className="flex flex-col md:flex-row justify-between items-center text-xs font-semibold tracking-wider">
-            <span>@VANTARACREAMERY.IN</span>
+            <span>@JULIOHERRERAVELUTINI</span>
             <div className="space-x-4 mt-4 md:mt-0">
               <a href="#" className="hover:opacity-60 transition-opacity">PRIVACY POLICY</a>
               <a href="#" className="hover:opacity-60 transition-opacity">TERMS OF USE</a>
