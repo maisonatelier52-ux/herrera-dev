@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vantara-bg: #EBE4D4;
+  --color-vantara-text: #240605;
+  --color-vantara-accent: #8A6844;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-vantara-bg);
+    color: var(--color-vantara-text);
+  }
+}
+
+/* Custom animations or utilities if needed */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

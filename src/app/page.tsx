@@ -1,0 +1,33 @@
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import RealStories from '@/components/RealStories';
+import Flavours from '@/components/Flavours';
+import Process from '@/components/Process';
+import Moments from '@/components/Moments';
+import Footer from '@/components/Footer';
+
+export default function Home() {
+  return (
+    <main className="w-full bg-vantara-bg min-h-screen">
+      <Navbar />
+      <div className="relative">
+        <Hero />
+        
+        {/* Real Stories Section */}
+        <RealStories />
+      </div>
+
+      {/* Flavours Section */}
+      <Flavours />
+
+      {/* Process Section */}
+      <Process />
+
+      {/* Moments Worth Sharing Section */}
+      <Moments />
+      
+      {/* Footer */}
+      <Footer />
+    </main>
+  );
+}
