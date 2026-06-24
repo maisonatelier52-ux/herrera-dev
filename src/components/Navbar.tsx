@@ -81,9 +81,9 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col items-center gap-8 text-2xl font-semibold tracking-widest uppercase">
-          <Link href="#flavours" onClick={() => setMenuOpen(false)} className="hover:opacity-70 transition-opacity">FLAVOURS</Link>
-          <Link href="#process" onClick={() => setMenuOpen(false)} className="hover:opacity-70 transition-opacity">PROCESS</Link>
-          <a href="https://maps.app.goo.gl/fkfnTHE2rX7a38jU9" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="hover:opacity-70 transition-opacity">FIND US</a>
+          <Link href="#about" onClick={() => setMenuOpen(false)} className="hover:opacity-70 transition-opacity">ABOUT</Link>
+          <Link href="#features" onClick={() => setMenuOpen(false)} className="hover:opacity-70 transition-opacity">FEATURED</Link>
+          <a href="#" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="hover:opacity-70 transition-opacity">FIND US</a>
         </div>
       </div>
     </>

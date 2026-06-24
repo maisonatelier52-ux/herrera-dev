@@ -83,7 +83,7 @@ export default function RealStories() {
         As you scroll down, Slide 1 sticks to the top, and this section slides UP over it.
         When this section hits the top, it ALSO sticks, freezing the Cow Poster in place.
       */}
-      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-20">
+      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-20 overflow-hidden">
         <div className="absolute top-[10%] right-[5%] md:right-[10%] w-[80vw] sm:w-[350px] md:w-[400px] lg:w-[500px] aspect-[3/4] pointer-events-none">
           <img src="/julio-postcard.png" alt="Cow postcard" className="w-full h-full object-contain drop-shadow-2xl" />
         </div>
@@ -96,7 +96,7 @@ export default function RealStories() {
         When it hits the top, it ALSO sticks. Since there are no more slides, scrolling further
         moves past the entire RealStories wrapper down to the Flavours section.
       */}
-      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-30">
+      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-30 overflow-hidden">
         <div
           className="absolute bottom-[18%] left-[5%] md:left-[10%] w-[88vw] sm:w-[450px] md:w-[700px] lg:w-[900px] aspect-[3/4] md:aspect-[3/2] pointer-events-none"
           style={{ transform: 'rotate(-20deg)' }}

@@ -19,7 +19,7 @@ export default function Process() {
       </div>
 
       {/* SLIDE 2: Second Postcard */}
-      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-20 flex items-center justify-center">
+      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-20 flex items-center justify-center overflow-hidden">
         {/* Desktop Postcard */}
         <img 
           src="/postcard-two.png" 
@@ -35,7 +35,7 @@ export default function Process() {
       </div>
 
       {/* SLIDE 3: Third Postcard */}
-      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-30 flex items-center justify-center">
+      <div className="sticky top-0 w-full h-[100vh] pointer-events-none z-30 flex items-center justify-center overflow-hidden">
         {/* Desktop Postcard */}
         <img 
           src="/postcard-three.png" 

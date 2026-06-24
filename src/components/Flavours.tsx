@@ -131,7 +131,7 @@ export default function Flavours() {
 
   return (
     <section id="features" className="relative w-full h-screen bg-[#FAF8F1] overflow-hidden">
-      <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2">
+      <div className="absolute inset-0 grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1">
         
         {/* --- LEFT SIDE: Large Background Images --- */}
         <div className="relative w-full h-full overflow-hidden">
@@ -194,7 +194,7 @@ export default function Flavours() {
               >
                 {/* TEXT: Comes from the top */}
                 <h3 
-                  className={`text-8xl md:text-7xl font-medium text-vantara-text tracking-tighter text-center uppercase mb-8  transition-transform duration-1000 ease-in-out whitespace-pre-line leading-[0.85] ${
+                  className={`text-5xl sm:text-6xl md:text-7xl font-medium text-vantara-text tracking-tighter text-center uppercase mb-4 md:mb-8 transition-transform duration-1000 ease-in-out whitespace-pre-line leading-[0.85] ${
                     isActive ? 'translate-y-0' : '-translate-y-20'
                   }`}
                   style={{ fontFamily: "var(--font-barlow-condensed), sans-serif" }}
@@ -204,11 +204,11 @@ export default function Flavours() {
 
                 {/* DESCRIPTION PARAGRAPH: Comes from the bottom */}
                 <div 
-                  className={`relative w-64 h-auto md:w-120 transition-transform duration-1000 ease-in-out flex items-center justify-center ${
+                  className={`relative w-[90%] md:w-120 transition-transform duration-1000 ease-in-out flex items-center justify-center ${
                     isActive ? 'translate-y-0' : 'translate-y-20'
                   }`}
                 >
-                  <p className="text-sm md:text-sm font-light text-black text-center leading-relaxed  drop-shadow-md">
+                  <p className="text-xs md:text-sm font-light text-black text-center leading-relaxed drop-shadow-md">
                     {flavour.description}
                   </p>
                 </div>
